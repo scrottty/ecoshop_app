@@ -13,3 +13,11 @@ List<String> title =
   "Lady in Wonder",
   "Tupac",
 ];
+
+List<String> words = <String>
+[
+  "Word One",
+  "Word Two",
+  "Word Three",
+  "Word Four",
+];

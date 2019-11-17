@@ -34,8 +34,6 @@ class _MyAppState extends State<MyApp>
       });
     });
 
-
-
     return Scaffold
     (
       backgroundColor: Color(0xFF2d3447),
@@ -157,6 +155,37 @@ class _MyAppState extends State<MyApp>
                 )
               ],
             ),
+            // ListView.separated
+            // (
+            //   padding: const EdgeInsets.all(8),
+            //   itemCount: words.length,
+            //   itemBuilder: (BuildContext context, int index)
+            //   {
+            //     return Container
+            //     (
+            //       height: 50,
+            //       color: Colors.blueAccent,
+            //       child: Center(child: Text(words[index])),
+            //     );
+            //   },
+            // ),
+
+
+
+
+
+            // ListView.separated(
+            //   padding: const EdgeInsets.all(8),
+            //   itemCount: entries.length,
+            //   itemBuilder: (BuildContext context, int index) {
+            //     return Container(
+            //       height: 50,
+            //       color: Colors.amber[colorCodes[index]],
+            //       child: Center(child: Text('Entry ${entries[index]}')),
+            //     );
+            //   },
+            //   separatorBuilder: (BuildContext context, int index) => const Divider(),
+            // );
           ],
         ),
       ),
